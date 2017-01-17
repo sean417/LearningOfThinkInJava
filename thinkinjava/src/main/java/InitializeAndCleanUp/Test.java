@@ -6,6 +6,4 @@ package InitializeAndCleanUp;
 public class Test {
 
 
-
-
 }

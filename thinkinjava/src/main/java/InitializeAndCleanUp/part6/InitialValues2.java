@@ -1,7 +1,7 @@
 package InitializeAndCleanUp.part6;
 
 /**
- * 指定初始化：
+ * 2.指定初始化：
  * 对基本数据类型的指定初始化。
  * Created by chenyang on 2017/1/17.
  */

@@ -1,0 +1,32 @@
+Index: thinkinjava/src/main/java/InitializeAndCleanUp/part6/InitialValues.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- thinkinjava/src/main/java/InitializeAndCleanUp/part6/InitialValues.java	(revision 3d8d0ddc6927eae7b77929dad798f0a521d418af)
++++ thinkinjava/src/main/java/InitializeAndCleanUp/part6/InitialValues.java	(revision )
+@@ -4,7 +4,7 @@
+ 
+ /**
+  * Created by chenyang on 2017/1/17.
+- *
++ * 1.java默认的初始化。
+  * java尽力保证：所有变量在使用前都得得到恰当的初始化。
+  * 1.对于方法的局部变量，java以编译时错误的形式来贯彻这种保证
+  * 2.对于类的数据成员（即字段）是基本类型，如果没有值，Java会给一个合适的默认值
+Index: thinkinjava/src/main/java/InitializeAndCleanUp/part6/InitialValues2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- thinkinjava/src/main/java/InitializeAndCleanUp/part6/InitialValues2.java	(revision 3d8d0ddc6927eae7b77929dad798f0a521d418af)
++++ thinkinjava/src/main/java/InitializeAndCleanUp/part6/InitialValues2.java	(revision )
+@@ -1,7 +1,7 @@
+ package InitializeAndCleanUp.part6;
+ 
+ /**
+- * 指定初始化：
++ * 2.指定初始化：
+  * 对基本数据类型的指定初始化。
+  * Created by chenyang on 2017/1/17.
+  */

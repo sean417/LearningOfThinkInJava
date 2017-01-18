@@ -1,9 +1,11 @@
 package InitializeAndCleanUp.part7;
 
-import static com.sun.xml.internal.fastinfoset.alphabet.BuiltInRestrictedAlphabets.table;
 import static net.mindview.util.Print.print;
 
 /**
+ * 类的静态数据的初始化：
+ * 1.类的静态数据初始化，只发生在两种情况下：1）创建这个类的对象。2）直接用类引用类的静态数据
+ * 2.类的静态数据初始化，只会初始化一次。因为无论创建多少个对象，静态数据只占用一份存储区域。
  * Created by chenyang on 2017/1/17.
  */
 class Bowl{

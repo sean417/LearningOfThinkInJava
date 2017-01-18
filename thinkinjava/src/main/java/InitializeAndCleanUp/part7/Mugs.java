@@ -3,6 +3,7 @@ package InitializeAndCleanUp.part7;
 import static net.mindview.util.Print.print;
 
 /**
+ * 非静态成员初始化在构造器之前完成
  * Created by chenyang on 2017/1/18.
  */
 

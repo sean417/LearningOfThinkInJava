@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jvminaction" />
         <module name="thinkinjava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jvminaction" target="1.5" />
       <module name="thinkinjava" target="1.5" />
     </bytecodeTargetLevel>
   </component>

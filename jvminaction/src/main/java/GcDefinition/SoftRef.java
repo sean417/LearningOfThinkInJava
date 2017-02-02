@@ -37,7 +37,7 @@ public class SoftRef {
         System.out.println("After GC:");
         System.out.println(userSoftRef.get());//gc后软引用还存在，因为堆空间还是比较充足的。
 
-        byte[] b=new byte[1024*925*7];//堆空间被其他对象占据，这是堆空间比较紧张
+        byte[] b=new byte[1024*924*7];//堆空间被其他对象占据，这是堆空间比较紧张
         System.gc();
         System.out.println(userSoftRef.get());//堆空间比较紧张时，软引用的对象被回收。
     }

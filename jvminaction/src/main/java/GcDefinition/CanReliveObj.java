@@ -13,6 +13,7 @@ package GcDefinition;
  * 2.优先级低，何时调用不确定。（什么时候gc,程序无法确定，系统决定）
  * 3.可以用try-catch-finally来替代它。
  * Created by chenyang on 2017/2/2.
+ *
  */
 public class CanReliveObj {
     public static CanReliveObj obj;

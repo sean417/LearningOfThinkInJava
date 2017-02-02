@@ -3,6 +3,8 @@ package GcDefinition;
 import java.util.HashMap;
 
 /**
+ *
+ * 启动参数：-Xmx512m -Xms512m -XX:+UseSerialGC -XX:+PrintGCDetails -Xmn1m
  * Created by chenyang on 2017/2/2.
  */
 
@@ -20,7 +22,7 @@ public class StopWorldTest {
                         map.clear();
                         System.out.println("clean map");
                     }
-                    for(int i=0;i<1024;i++){
+                    for(int i=0;i<100;i++){
                         map.put(System.nanoTime(),new byte[512]);//消耗内存。
                     }
                     Thread.sleep(1);

@@ -1,7 +1,7 @@
 package jvmbasicstructure;
 
 /**
- * 指令重拍--破坏线程间的有序性
+ * 指令重排--破坏线程间的有序性
  *
  * 线程A首先执行writer()方法
  * 线程B线程接着执行reader()方法。

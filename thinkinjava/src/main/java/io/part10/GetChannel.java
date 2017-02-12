@@ -19,7 +19,7 @@ import java.nio.channels.FileChannel;
  * 用于以原始的字节形式（put()）或基本数据类型（putChar(),putDouble(),putFloat()等）输出和读取对象,
  * 但是无法输出或读取对象，即使是字符串对象也不行。这种处理比较底层，正好是大多数操作系统中更有效的映射方式。
  *
- * FileChannel:
+ * FileChannel类:
  * 旧的IO类库中有三个类产生FileChannel,分别是，FileInputStream,FileOutputStream,以及既读又写的RandomAccessFile。
  * 注意这些流与底层的nio性质一致。Reader和Writer这种字符模式类不能用于产生通道。java.nio.channels类提供了实用方法，
  * 用以在通道中产生Reader和Writer。

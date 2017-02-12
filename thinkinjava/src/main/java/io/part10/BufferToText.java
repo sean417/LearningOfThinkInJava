@@ -53,6 +53,7 @@ public class BufferToText {
         fc=new FileOutputStream(urlDes.getFile()).getChannel();
         buffer=ByteBuffer.allocate(24);//char类型，1个char两个字节。"Some text"一共9个字节，多出来3个空白，也会打印出来。
         buffer.asCharBuffer().put("Some text");
+
         fc.write(buffer);
         fc.close();
 

@@ -22,5 +22,6 @@ public class TransferTo {
                 in=new FileInputStream(urlSrc.getFile()).getChannel(),
                 out=new FileOutputStream(urlDes.getFile()).getChannel();
         in.transferTo(0,in.size(),out);
+        out.transferFrom(in,0,in.size());
     }
 }

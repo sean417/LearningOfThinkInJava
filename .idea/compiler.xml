@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HighConcurreny" />
         <module name="jvminaction" />
         <module name="thinkinjava" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
+      <module name="HighConcurreny" target="1.5" />
       <module name="jvminaction" target="1.5" />
       <module name="thinkinjava" target="1.5" />
     </bytecodeTargetLevel>

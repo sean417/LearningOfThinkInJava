@@ -2,7 +2,7 @@ package ParallelBasic;
 
 /**suspend()和resume():
  * suspend()执行时，线程处于挂起状态，而且线程不释放任何锁资源。
- * 如过resume()在suspend()前执行，会造成线程t2的挂起。
+ * 如过resume()在suspend()前执行，会造成线程t2的挂起,并永远占用对象u的锁。
  * Created by chenyang on 2017/2/24.
  */
 public class BadSuspend {

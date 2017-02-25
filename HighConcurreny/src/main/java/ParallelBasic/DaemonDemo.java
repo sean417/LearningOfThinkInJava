@@ -21,10 +21,11 @@ public class DaemonDemo {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Thread t=new DaemonT();
         t.setDaemon(true);
         t.start();
+        Thread.sleep(2000);
 
 
     }

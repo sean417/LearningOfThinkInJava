@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicStampedReference;
 
 /**
+ * 当用户账户小于20元时，给用户冲20元，但一个用户只能充值一次。
  *  AtomicStampedReference解决了数据不变，但程序运行过程中数据变了的情况。
  *  它使用戳保证数据没有被修改。
  * Created by chenyang on 2017/2/27.

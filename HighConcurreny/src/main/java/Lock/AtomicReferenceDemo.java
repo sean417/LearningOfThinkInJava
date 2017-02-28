@@ -3,7 +3,7 @@ package Lock;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**使用引用类型AtomicReference<T>的原子操作。
- *
+ *当用户账户小于20元时，给用户冲20元，但一个用户只能充值一次。
  *
  * Created by chenyang on 2017/2/28.
  */

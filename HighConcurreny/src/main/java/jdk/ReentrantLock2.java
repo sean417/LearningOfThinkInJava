@@ -20,7 +20,8 @@ public class ReentrantLock2 implements Runnable {
                 i++;
             }finally {
                 lock.unlock();
-                lock.unlock();
+//                lock.unlock();//如何只释放一次unlock()那么别的线程第一个lock都进不去，用jstack可以看到
+                                //进程二在17行等待资源，Object.wait():
             }
         }
     }

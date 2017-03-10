@@ -5,7 +5,9 @@ package ParallelBasic;
  * Created by chenyang on 2017/2/25.
  */
 public class NoVisibility {
-    private static volatile boolean ready;
+    private static  boolean ready;
+//    private static volatile   boolean ready;
+
     private static int number;
     private static class ReaderThread extends Thread{
         @Override

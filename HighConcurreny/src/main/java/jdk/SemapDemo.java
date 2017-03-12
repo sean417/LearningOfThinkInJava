@@ -18,13 +18,14 @@ public class SemapDemo implements Runnable {
     final Semaphore semp=new Semaphore(5);
     public void run() {
         try {
-            semp.acquire();
+            semp.acquire();//semp.acquire(2)可以获得多个许可。
 
             Thread.sleep(2000);
             System.out.println(Thread.currentThread().getId()+":done!");
-            semp.release();
         }catch (InterruptedException e){
             e.printStackTrace();
+        }finally {
+            semp.release();//释放许可  semp.release(2)可以释放多个许可。
         }
     }
 

@@ -3,7 +3,7 @@ package jdk;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * ReentrantLock的中断响应，
+ * ReentrantLock的中断响应，可以避免死锁或长期等待
  * 人为制造死锁，然后通过中断解决死锁问题
  * lockInterruptibly()和interrupt()
  * Created by chenyang on 2017/3/12.
@@ -37,10 +37,10 @@ public class IntLock implements Runnable {
         }catch (InterruptedException e){
             e.printStackTrace();
         }finally {
-            if(lock1.isHeldByCurrentThread()){
+            if(lock1.isHeldByCurrentThread()){//解锁
                 lock1.unlock();
             }
-            if(lock2.isHeldByCurrentThread()){
+            if(lock2.isHeldByCurrentThread()){//解锁
                 lock2.unlock();
             }
             System.out.println(Thread.currentThread().getId()+":线程退出");

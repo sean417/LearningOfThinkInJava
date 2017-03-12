@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 
 /**
- * Semapore是共享锁：
+ * Semapore是对锁的扩充，也称共享锁：
  * 允许多个线程同时进入临界区。
  * 先定义Semapore有多少个许可，每个线程要申请一个许可成功后才能进入。
  * 许可消费完，其他线程再申请只能进入等待队列。

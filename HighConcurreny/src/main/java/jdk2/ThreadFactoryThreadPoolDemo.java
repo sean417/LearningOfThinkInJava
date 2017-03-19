@@ -1,0 +1,29 @@
+package jdk2;
+
+import java.util.concurrent.*;
+
+/**自定义线程池的线程工厂。
+ * Created by chenyang on 2017/3/19.
+ */
+public class ThreadFactoryThreadPoolDemo {
+    public static void main(String[] args) throws InterruptedException{
+        RejectThreadPoolDemo.MyTask task=new RejectThreadPoolDemo.MyTask();
+        ExecutorService es =new ThreadPoolExecutor(5, 5,
+                0L, TimeUnit.MILLISECONDS,
+                new SynchronousQueue<Runnable>(),
+                new ThreadFactory() {
+                    public Thread newThread(Runnable r) {
+                        Thread t=new Thread(r);
+                        t.setDaemon(true);
+                        System.out.println("create "+t);
+                        return t;
+                    }
+                });
+
+        for(int i=0;i<5;i++){
+            es.submit(task);
+        }
+
+        Thread.sleep(2000);
+    }
+}

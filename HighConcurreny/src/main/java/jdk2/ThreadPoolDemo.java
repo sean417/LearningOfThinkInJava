@@ -9,6 +9,7 @@ import java.util.concurrent.Executors;
  */
 public class ThreadPoolDemo {
     public static class MyTask implements Runnable{
+        String name="";
         public void run() {
             System.out.println(System.currentTimeMillis()+":Thread ID:"+Thread.currentThread().getId());
 
@@ -18,10 +19,13 @@ public class ThreadPoolDemo {
                 e.printStackTrace();
             }
         }
+        public  MyTask(String name){
+            this.name=name;
+        }
     }
 
     public static void main(String[] args) {
-        MyTask task=new MyTask();
+        MyTask task=new MyTask("aa");
         ExecutorService es= Executors.newFixedThreadPool(5);
         for(int i=0;i<10;i++){
             es.submit(task);

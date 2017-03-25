@@ -1,4 +1,4 @@
-package DesignPattern;
+package DesignPattern.singleton;
 
 /**
  * Singleton实现三：

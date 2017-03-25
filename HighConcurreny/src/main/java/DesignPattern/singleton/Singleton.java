@@ -1,4 +1,4 @@
-package DesignPattern;
+package DesignPattern.singleton;
 
 /**Singleton实现方法一：直接用static,保证线程安全，且被实例化一次。
  * 缺点：无法懒加载，因为我调用Singleton.STATUS时，实例也会被创建。

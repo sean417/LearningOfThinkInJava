@@ -1,4 +1,4 @@
-package DesignPattern;
+package DesignPattern.singleton;
 
 /**Singleton实现二：
  * 在第一次被调用时创建对象。

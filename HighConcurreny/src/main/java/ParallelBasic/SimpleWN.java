@@ -16,6 +16,15 @@ public class SimpleWN {
     public static class T1 extends Thread{
         @Override
         public void run() {
+            //加上这句虽然造成T1一直等待，但是其他线程可以调用同步方法，因为T1已经释放了锁资源
+//            try {
+//
+//
+//                sleep(100);
+//            }catch (InterruptedException ex){
+//
+//            }
+
             synchronized (object){
                 System.out.println(System.currentTimeMillis()+":T1 start!");
                 try {

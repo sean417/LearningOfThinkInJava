@@ -4,6 +4,7 @@ import java.io.*;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.concurrent.locks.LockSupport;
 
 /**
  * Created by chenyang on 2017/3/26.
@@ -20,7 +21,6 @@ public class MultiThreadEchoClient {
             writer=new PrintWriter(client.getOutputStream(),true);
             writer.println("hello"+System.currentTimeMillis());
             writer.flush();
-            System.out.println(System.currentTimeMillis());
             reader=new BufferedReader(new InputStreamReader(client.getInputStream()));
             System.out.println(System.currentTimeMillis()+"from server:"+reader.readLine());
         }catch (UnknownHostException ex){

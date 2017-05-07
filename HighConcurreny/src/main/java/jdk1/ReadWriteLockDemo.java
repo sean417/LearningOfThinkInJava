@@ -18,6 +18,7 @@ public class ReadWriteLockDemo {
 
     public Object handleRead(Lock lock) throws InterruptedException {
         try {
+
             lock.lock();
             Thread.sleep(1000);//读耗时越多读写锁的优势越明显
             System.out.println("read finish");

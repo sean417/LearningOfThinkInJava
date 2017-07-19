@@ -1,4 +1,4 @@
-package DebugAndJDK8;
+package JDK8;
 
 import java.util.ArrayList;
 

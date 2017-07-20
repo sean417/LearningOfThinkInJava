@@ -30,7 +30,7 @@ public class CompletableFuture1 {
         final CompletableFuture<Integer> future=new CompletableFuture<>();
         new Thread(new AskThread(future)).start();
 
-//        Thread.sleep(100);
+        Thread.sleep(1000);
 
         future.complete(60);
     }

@@ -7,5 +7,14 @@
     <groupId>com.learning.java</groupId>
     <artifactId>HighConcurreny</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <properties>
+        <logback.version>1.0.13</logback.version>
+    </properties>
+        <dependencies>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+        </dependencies>
 </project>

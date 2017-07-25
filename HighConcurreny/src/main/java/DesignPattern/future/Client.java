@@ -29,4 +29,5 @@ public class Client {
         }
         System.out.println("数据="+data.getResult());
     }
+
 }

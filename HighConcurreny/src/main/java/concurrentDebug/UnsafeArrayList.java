@@ -2,7 +2,13 @@ package concurrentDebug;
 
 import java.util.ArrayList;
 
-/**
+/** intellij调试多线程：
+ * 1.如何没有任何设置，并把断点放置在ArrayList的add方法，会看到是主线程在做classload时的调用，
+ * 而不是子线程t1,t2对ArrayList的add方法的调用。
+ * 2.在debug中，要想看到子线程对ArrayList的add方法的调用，在断点属性上要设置Condition,
+ * 如：!Thread.currentThread().getName().equals("main")，这样断点ArrayList的add方法里的断点之后
+ * 在子线程真正调用add方法时停下。
+ * 3.对于suspend选项：thread是应用线程的断掉，all代表所有线程包括vm的线程都会断掉。
  * Created by chenyang3@01zhuanche.com on 2017/7/21.
  */
 public class UnsafeArrayList {

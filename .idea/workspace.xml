@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="update code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java" />
+    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java" afterPath="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/thinkinjava/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -84,8 +80,8 @@
       <file leaf-file-name="StampedLockTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -200,8 +196,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="78" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
@@ -1005,14 +1000,7 @@
       <workItem from="1500463926524" duration="28884000" />
       <workItem from="1500885520038" duration="6367000" />
       <workItem from="1500990482024" duration="5780000" />
-      <workItem from="1501253224862" duration="7975000" />
-    </task>
-    <task id="LOCAL-00015" summary="update code">
-      <created>1484703212651</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1484703212651</updated>
+      <workItem from="1501253224862" duration="8505000" />
     </task>
     <task id="LOCAL-00016" summary="update code">
       <created>1484706624248</created>
@@ -1350,11 +1338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501423429698</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="StampedLock是一个乐观读写锁。">
+      <created>1501513465018</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1501513465018</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183864000" />
+    <option name="totallyTimeSpent" value="184394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1366,7 +1361,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="78" width="1280" height="773" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1384,7 +1379,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21486267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1419,7 +1414,8 @@
     <MESSAGE value="CompletableFuture可以将多个CompletableFuture进行组合。" />
     <MESSAGE value="多线程调试时，断点的设定" />
     <MESSAGE value="update code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code" />
+    <MESSAGE value="StampedLock是一个乐观读写锁。" />
+    <option name="LAST_COMMIT_MESSAGE" value="StampedLock是一个乐观读写锁。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1810,8 +1806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding />
         </state>
       </provider>

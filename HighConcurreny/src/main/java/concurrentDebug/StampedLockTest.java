@@ -3,7 +3,7 @@ package concurrentDebug;
 import java.util.concurrent.locks.StampedLock;
 
 /**
- * StampedLock是一个乐观读写锁。
+ * 更快的原子类：StampedLock是一个乐观读写锁。
  * 1.通过使用tryOptimisticRead()或tryOptimisticWrite()来实现读和写线程可以同时
  * 操作数据，同时用stamp来维护版本，使数据不会发生不一致。
  * 2.同时StampedLock也有悲观的读写锁，读写互斥，写写互斥。

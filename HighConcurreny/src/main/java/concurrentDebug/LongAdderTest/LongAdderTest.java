@@ -18,11 +18,11 @@ import java.util.concurrent.atomic.LongAdder;
  */
 public class LongAdderTest {
     protected static final int MAX_THREADS=3;//线程数
-    protected static final int TASK_COUNT=3;//任务数
-    protected static final int TARGET_COUNT=10000000;//目标总数
+    protected static final int TASK_COUNT=10;//任务数
+    protected static final int TARGET_COUNT=50000000;//目标总数
 
-    private AtomicLong acount=new AtomicLong(0L);
-    private LongAdder lacount=new LongAdder();
+    protected AtomicLong acount=new AtomicLong(0L);
+    protected LongAdder lacount=new LongAdder();
     private long count=0;
 
     static CountDownLatch cdlsync=new CountDownLatch(TASK_COUNT);

@@ -1,4 +1,4 @@
-package concurrentDebug;
+package concurrentDebugAndJdk8;
 
 import java.util.concurrent.locks.ReentrantLock;
 

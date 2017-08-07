@@ -1,10 +1,10 @@
-package concurrentDebug.LongAdderTest;
+package concurrentDebugAndJdk8.LongAdderTest;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import static concurrentDebug.LongAdderTest.LongAdderTest.*;
-import static concurrentDebug.LongAdderTest.LongAdderTest.TASK_COUNT;
+import static concurrentDebugAndJdk8.LongAdderTest.LongAdderTest.*;
+import static concurrentDebugAndJdk8.LongAdderTest.LongAdderTest.TASK_COUNT;
 
 /**原子类的性能测试。
  * Created by chenyang3@01zhuanche.com on 2017/8/1.

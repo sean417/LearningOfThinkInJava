@@ -1,4 +1,4 @@
-package concurrentDebug.LongAdderTest;
+package concurrentDebugAndJdk8.LongAdderTest;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicLong;

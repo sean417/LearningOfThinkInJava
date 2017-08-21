@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
+    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="StampedLock是一个乐观读写锁。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java" afterPath="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" afterPath="$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jvminaction/jvminaction.iml" afterPath="$PROJECT_DIR$/jvminaction/jvminaction.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" afterPath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" />
     </list>
-    <ignored path="$PROJECT_DIR$/thinkinjava/target/" />
-    <ignored path="$PROJECT_DIR$/jvminaction/target/" />
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
+    <ignored path="$PROJECT_DIR$/jvminaction/target/" />
+    <ignored path="$PROJECT_DIR$/thinkinjava/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,75 +26,113 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="DatabaseView">
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="LearningOfThinkInJava" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UnsafeArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/UnsafeArrayList.java">
+      <file leaf-file-name="StampedLockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+            <state relative-caret-position="77">
+              <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <file leaf-file-name="StampedLockCPUDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockCPUDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="457" column="0" lean-forward="false" selection-start-line="457" selection-start-column="0" selection-end-line="457" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#562#801#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DeadLockCar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/DeadLockCar.java">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/DeadLockCar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LongAdderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest.java">
+      <file leaf-file-name="ReentrantLock1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReentrantLock1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="-73">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StampedLockTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java">
+      <file leaf-file-name="ReadWriteLockDemo1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReadWriteLockDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLClassPath.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+      <file leaf-file-name="StampedLock.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4785">
-              <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+            <state relative-caret-position="206">
+              <caret line="527" column="19" lean-forward="false" selection-start-line="527" selection-start-column="19" selection-end-line="527" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccumulatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#237#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="235" column="24" lean-forward="false" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -102,19 +143,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>loadClass</find>
-      <find>asChar</find>
-      <find>asCharBuffer</find>
-      <find>CharBuffer</find>
-      <find>toString</find>
-      <find>thenAccept</find>
+      <find>park</find>
+      <find>interrupt</find>
+      <find>operator</find>
+      <find>put</find>
+      <find>ConcurrentModificationException</find>
+      <find>resize</find>
+      <find>add</find>
+      <find>get</find>
+      <find>first</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,57 +171,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/TestStackDeep.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/scanjvm/OriginMaBuMa.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/SimpleHeap.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/TestStackDeep.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest2.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/CanReliveObj.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/PrintThread.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/SoftRef.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/SoftRefQ.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/WeakRef.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/TraceCanReliveObj.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OrderExample.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcDefinition/StopWorldTest.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/ClassLoader.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/ClassLoaderTest.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/HelleLoader.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/HelloLoader.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/HelloLoaderTest/FindClassOrder.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/HelloLoaderTest/HelloLoader.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/Child.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/Parent.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/InitMain.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/FinalFieldClass.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/UserFinalField.java" />
-        <option value="$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/GetChannel.java" />
-        <option value="$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/ChannelCopy.java" />
-        <option value="$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/TransferTo.java" />
-        <option value="$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/BufferToText.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/DebugAndJDK8/UnsafeArrayLIst.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/DebugAndJDK8/Test.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/AskThread.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFuture.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/Test.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFuture1.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/pom.xml" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureSupplyAsync.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureComplete.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureStream.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletabeFutureException.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureCompose.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureComposeAnother.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureCombine.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/SSS.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/DesignPattern/future/Client.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/UnsafeArrayList.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/DeadLockCar.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdder.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLock.java" />
-        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest/AtomicThread.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest/LongAdderTest.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest/LongAddrThread.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AtomicThread.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockTest.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java" />
+        <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockCPUDemo.java" />
+        <option value="$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java" />
       </list>
     </option>
   </component>
@@ -196,14 +196,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="36" />
+    <option name="y" value="24" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state />
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -223,248 +219,94 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HighConcurreny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HighConcurreny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningOfThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HighConcurreny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrentDebug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinjava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkinjava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="JDK8.completableFuture" />
-      <recent name="InitializeAndCleanUp.part2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/thinkinjava/src/main/java" />
-      <recent name="$PROJECT_DIR$/jvminaction/src/resources" />
-      <recent name="$PROJECT_DIR$/jvminaction/src/main/java/ClassLoader/HelloLoaderTest" />
+      <recent name="concurrentDebug.LongAdderTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeadLockCar">
-    <configuration default="false" name="CompletabeFutureException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HashMapTest">
+    <configuration name="AccumulatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="JDK8.completableFuture.*" />
+          <option name="PATTERN" value="concurrentDebugAndJdk8.LongAdderTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="JDK8.completableFuture.CompletabeFutureException" />
+      <option name="MAIN_CLASS_NAME" value="concurrentDebugAndJdk8.LongAdderTest.AccumulatorTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -475,16 +317,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="HighConcurreny" />
       <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="CompletableFutureCompose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AtomicThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="JDK8.completableFuture.*" />
+          <option name="PATTERN" value="concurrentDebugAndJdk8.LongAdderTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="JDK8.completableFuture.CompletableFutureCompose" />
+      <option name="MAIN_CLASS_NAME" value="concurrentDebugAndJdk8.LongAdderTest.AtomicThread" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -495,16 +336,34 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="HighConcurreny" />
       <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="CompletableFutureCombine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="JDK8.completableFuture.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="JDK8.completableFuture.CompletableFutureCombine" />
+      <option name="MAIN_CLASS_NAME" value="collection.HashMapTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="thinkinjava" />
+      <envs />
+    </configuration>
+    <configuration name="StampedLockCPUDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="concurrentDebugAndJdk8.StampedLock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="concurrentDebugAndJdk8.StampedLock.StampedLockCPUDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -515,16 +374,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="HighConcurreny" />
       <envs />
-      <method />
     </configuration>
-    <configuration default="false" name="UnsafeArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SyncThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="concurrentDebug.*" />
+          <option name="PATTERN" value="concurrentDebugAndJdk8.LongAdderTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrentDebug.UnsafeArrayList" />
+      <option name="MAIN_CLASS_NAME" value="concurrentDebugAndJdk8.LongAdderTest.SyncThread" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -535,89 +393,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="HighConcurreny" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="DeadLockCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="concurrentDebug.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="concurrentDebug.DeadLockCar" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HighConcurreny" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -625,7 +400,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -640,173 +414,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -827,37 +434,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -868,21 +444,14 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LearningOfThinkInJava" />
+      <module name="HighConcurreny" />
       <envs />
-      <method />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -890,13 +459,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -924,496 +486,165 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CompletabeFutureException" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CompletableFutureCompose" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CompletableFutureCombine" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UnsafeArrayList" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DeadLockCar" />
+      <item index="0" class="java.lang.String" itemvalue="Application.AtomicThread" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SyncThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StampedLockCPUDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AccumulatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.HashMapTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DeadLockCar" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UnsafeArrayList" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CompletableFutureCombine" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CompletableFutureCompose" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CompletabeFutureException" />
+        <item index="0" class="java.lang.String" itemvalue="Application.HashMapTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AccumulatorTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.StampedLockCPUDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AtomicThread" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SyncThread" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="StampedLock是一个乐观读写锁。">
+      <created>1501684651915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501684651915</updated>
+    </task>
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="" />
-      <created>1483152437681</created>
+      <changelist id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="StampedLock是一个乐观读写锁。" />
+      <created>1501985111199</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1483152437681</updated>
-      <workItem from="1483152439387" duration="4041000" />
-      <workItem from="1483160040491" duration="11559000" />
-      <workItem from="1484362182771" duration="4551000" />
-      <workItem from="1484642649317" duration="12518000" />
-      <workItem from="1484716726885" duration="1176000" />
-      <workItem from="1484723339218" duration="5259000" />
-      <workItem from="1484804123679" duration="3414000" />
-      <workItem from="1484809335125" duration="3508000" />
-      <workItem from="1485002900088" duration="2224000" />
-      <workItem from="1485264271517" duration="11883000" />
-      <workItem from="1485440830649" duration="37244000" />
-      <workItem from="1486085029532" duration="172000" />
-      <workItem from="1486085300665" duration="6855000" />
-      <workItem from="1486190132179" duration="9332000" />
-      <workItem from="1486867240352" duration="13697000" />
-      <workItem from="1487421633273" duration="342000" />
-      <workItem from="1498748226683" duration="1815000" />
-      <workItem from="1498903681979" duration="1055000" />
-      <workItem from="1499073528156" duration="1746000" />
-      <workItem from="1500461153028" duration="2232000" />
-      <workItem from="1500463396178" duration="221000" />
-      <workItem from="1500463664759" duration="14000" />
-      <workItem from="1500463926524" duration="28884000" />
-      <workItem from="1500885520038" duration="6367000" />
-      <workItem from="1500990482024" duration="5780000" />
-      <workItem from="1501253224862" duration="8505000" />
+      <updated>1501985111199</updated>
+      <workItem from="1501985113972" duration="12250000" />
+      <workItem from="1502115358001" duration="1781000" />
+      <workItem from="1503043857217" duration="12012000" />
+      <workItem from="1503211690510" duration="3569000" />
     </task>
-    <task id="LOCAL-00016" summary="update code">
-      <created>1484706624248</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+    <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
+      <created>1502076728836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1484706624248</updated>
+      <updated>1502076728836</updated>
     </task>
-    <task id="LOCAL-00017" summary="update code">
-      <created>1484707684956</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+    <task id="LOCAL-00003" summary="StampedLock是一个乐观读写锁。">
+      <created>1502117055984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1484707684956</updated>
+      <updated>1502117055984</updated>
     </task>
-    <task id="LOCAL-00018" summary="update code">
-      <created>1484708345267</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1484708345267</updated>
-    </task>
-    <task id="LOCAL-00019" summary="update code">
-      <created>1484708505975</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1484708505975</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update code">
-      <created>1484708998701</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1484708998701</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update code">
-      <created>1484725499101</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1484725499101</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update code">
-      <created>1484791839245</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1484791839245</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update code">
-      <created>1484793171333</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1484793171333</updated>
-    </task>
-    <task id="LOCAL-00024" summary="update code">
-      <created>1484793960044</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1484793960044</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update code">
-      <created>1484805349025</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1484805349025</updated>
-    </task>
-    <task id="LOCAL-00026" summary="update code">
-      <created>1484805567335</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1484805567335</updated>
-    </task>
-    <task id="LOCAL-00027" summary="update code">
-      <created>1484808172437</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1484808172437</updated>
-    </task>
-    <task id="LOCAL-00028" summary="update code">
-      <created>1484810505146</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1484810505146</updated>
-    </task>
-    <task id="LOCAL-00029" summary="update code">
-      <created>1484812153170</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1484812153170</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update code">
-      <created>1485004264542</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1485004264542</updated>
-    </task>
-    <task id="LOCAL-00031" summary="update code">
-      <created>1485437716665</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1485437716665</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update code">
-      <created>1485437859768</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1485437859768</updated>
-    </task>
-    <task id="LOCAL-00033" summary="update code">
-      <created>1485438664201</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1485438664201</updated>
-    </task>
-    <task id="LOCAL-00034" summary="update code">
-      <created>1485946819782</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1485946819782</updated>
-    </task>
-    <task id="LOCAL-00035" summary="update code">
-      <created>1486011858471</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1486011858471</updated>
-    </task>
-    <task id="LOCAL-00036" summary="update code">
-      <created>1486014538973</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1486014538973</updated>
-    </task>
-    <task id="LOCAL-00037" summary="update code">
-      <created>1486014619643</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1486014619643</updated>
-    </task>
-    <task id="LOCAL-00038" summary="update code">
-      <created>1486016264639</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1486016264639</updated>
-    </task>
-    <task id="LOCAL-00039" summary="update code">
-      <created>1486031420773</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1486031420773</updated>
-    </task>
-    <task id="LOCAL-00040" summary="update code">
-      <created>1486034141183</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1486034141183</updated>
-    </task>
-    <task id="LOCAL-00041" summary="update code">
-      <created>1486035057797</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1486035057797</updated>
-    </task>
-    <task id="LOCAL-00042" summary="update code">
-      <created>1486041796028</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1486041796028</updated>
-    </task>
-    <task id="LOCAL-00043" summary="update code">
-      <created>1486104621285</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1486104621285</updated>
-    </task>
-    <task id="LOCAL-00044" summary="update code">
-      <created>1486203478870</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1486203478870</updated>
-    </task>
-    <task id="LOCAL-00045" summary="add classloader code">
-      <created>1486215223200</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1486215223200</updated>
-    </task>
-    <task id="LOCAL-00046" summary="think in java 自带工具包">
-      <created>1486867436790</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1486867436790</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Add IO">
-      <created>1486872105208</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1486872105208</updated>
-    </task>
-    <task id="LOCAL-00048" summary="update code">
-      <created>1486872751427</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1486872751427</updated>
-    </task>
-    <task id="LOCAL-00049" summary="通过nio文件的复制,循环读取,清空ByteBuffer">
-      <created>1486874547396</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1486874547396</updated>
-    </task>
-    <task id="LOCAL-00050" summary="将一个通道和另一个通道直接相连">
-      <created>1486876151444</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1486876151446</updated>
-    </task>
-    <task id="LOCAL-00051" summary="update code">
-      <created>1486876306423</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1486876306423</updated>
-    </task>
-    <task id="LOCAL-00052" summary="update code">
-      <created>1486913934610</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1486913934610</updated>
-    </task>
-    <task id="LOCAL-00053" summary="update code">
-      <created>1486913963745</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1486913963745</updated>
-    </task>
-    <task id="LOCAL-00054" summary="asCharBuffer与字符集的关系">
-      <created>1486914019871</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1486914019872</updated>
-    </task>
-    <task id="LOCAL-00055" summary="add Debug and JDK8">
-      <created>1498748323304</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1498748323306</updated>
-    </task>
-    <task id="LOCAL-00056" summary="update code">
-      <created>1498750635104</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1498750635104</updated>
-    </task>
-    <task id="LOCAL-00057" summary="update code">
-      <created>1500518325718</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1500518325720</updated>
-    </task>
-    <task id="LOCAL-00058" summary="update code">
-      <created>1500617174393</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1500617174394</updated>
-    </task>
-    <task id="LOCAL-00059" summary="update code">
-      <created>1500619956230</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1500619956231</updated>
-    </task>
-    <task id="LOCAL-00060" summary="CompletableFuture可以将多个CompletableFuture进行组合。">
-      <created>1500629448625</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1500629448625</updated>
-    </task>
-    <task id="LOCAL-00061" summary="update code">
-      <created>1500951745215</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1500951745216</updated>
-    </task>
-    <task id="LOCAL-00062" summary="多线程调试时，断点的设定">
-      <created>1500994412081</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1500994412082</updated>
-    </task>
-    <task id="LOCAL-00063" summary="update code">
-      <created>1501423429697</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1501423429698</updated>
-    </task>
-    <task id="LOCAL-00064" summary="StampedLock是一个乐观读写锁。">
-      <created>1501513465018</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1501513465018</updated>
-    </task>
-    <option name="localTasksCounter" value="65" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184394000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="37436000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <frame x="36" y="24" width="1280" height="773" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274596" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.54846525" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39353892" sideWeight="0.33602583" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39233038" sideWeight="0.35218093" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657856" sideWeight="0.75121164" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657856" sideWeight="0.73667204" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.273021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39353892" sideWeight="0.66397417" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39233038" sideWeight="0.64781904" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1275691" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1914378" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259587" sideWeight="0.5387722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="690" y="591" width="590" height="209" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16639479" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35389134" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add classloader code" />
-    <MESSAGE value="think in java 自带工具包" />
-    <MESSAGE value="Add IO" />
-    <MESSAGE value="通过nio文件的复制,循环读取,清空ByteBuffer" />
-    <MESSAGE value="将一个通道和另一个通道直接相连" />
-    <MESSAGE value="asCharBuffer与字符集的关系" />
-    <MESSAGE value="add Debug and JDK8" />
-    <MESSAGE value="CompletableFuture可以将多个CompletableFuture进行组合。" />
-    <MESSAGE value="多线程调试时，断点的设定" />
-    <MESSAGE value="update code" />
+    <MESSAGE value="readLock()与readLockInterruptibly()" />
     <MESSAGE value="StampedLock是一个乐观读写锁。" />
     <option name="LAST_COMMIT_MESSAGE" value="StampedLock是一个乐观读写锁。" />
   </component>
@@ -1421,17 +652,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <condition expression="!Thread.currentThread().getName().equals(&quot;main&quot;)" language="JAVA" />
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java</url>
-          <line>457</line>
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
+          <line>610</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/DeadLockCar.java</url>
-          <line>139</line>
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/HashMap.java</url>
+          <line>626</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
@@ -1440,7 +670,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1449,192 +679,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/typeinfo/pets/LiteralPetCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/typeinfo/pets/ForNameCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/typeinfo/SelectingMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/typeinfo/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/io/part1/PPrint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/net/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="824" column="18" lean-forward="false" selection-start-line="824" selection-start-column="18" selection-end-line="824" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/resources/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="355" column="24" lean-forward="false" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/resources/data1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/channels/FileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="685" column="25" lean-forward="false" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/TransferTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/GetChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="12" lean-forward="false" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/resources/data2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/ChannelCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="801" column="28" lean-forward="false" selection-start-line="801" selection-start-column="28" selection-end-line="801" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/BufferToText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23115">
-          <caret line="1580" column="31" lean-forward="false" selection-start-line="1580" selection-start-column="31" selection-end-line="1580" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/io/part10/AvailableCharSets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/HeapByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3720">
-          <caret line="289" column="50" lean-forward="false" selection-start-line="289" selection-start-column="50" selection-end-line="289" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/ByteBufferAsCharBufferB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="186" column="34" lean-forward="false" selection-start-line="186" selection-start-column="34" selection-end-line="186" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/nio/CharBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17895">
-          <caret line="1237" column="36" lean-forward="false" selection-start-line="1237" selection-start-column="36" selection-end-line="1237" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/DelayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="69" column="18" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletionStage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1752">
-          <caret line="140" column="43" lean-forward="false" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="304" column="32" lean-forward="false" selection-start-line="304" selection-start-column="32" selection-end-line="304" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1645,13 +693,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/UnsafeArrayLIst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/UnsafeArrayLIst.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1666,13 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureSupplyAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureSupplyAsync.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorCompletionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -1694,13 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureStream.java" />
     <entry file="file://$PROJECT_DIR$/HighConcurreny/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1716,59 +746,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletabeFutureException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureComplete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureCombine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureCompose.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletabeFutureException.java" />
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureComplete.java" />
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureCombine.java" />
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureCompose.java" />
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/DesignPattern/future/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#229#401#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/SSS.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4785">
-          <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="1119" column="35" lean-forward="false" selection-start-line="1119" selection-start-column="35" selection-end-line="1119" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1780,35 +773,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/UnsafeArrayList.java">
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/UnsafeArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/LongAdderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/LongAddrThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="354" column="23" lean-forward="false" selection-start-line="354" selection-start-column="23" selection-end-line="354" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="302" column="23" lean-forward="true" selection-start-line="302" selection-start-column="23" selection-end-line="302" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="208" column="21" lean-forward="true" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="794" column="27" lean-forward="false" selection-start-line="794" selection-start-column="27" selection-end-line="794" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AtomicThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="67" lean-forward="false" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/SyncThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="28" column="66" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/function/LongBinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/LongAccumulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="58" column="68" lean-forward="false" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/DeadLockCar.java">
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/UnixFileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="617" column="0" lean-forward="false" selection-start-line="617" selection-start-column="0" selection-end-line="617" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/usagetracker/UsageTrackerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="362" column="0" lean-forward="false" selection-start-line="362" selection-start-column="0" selection-end-line="362" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="351" column="0" lean-forward="false" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/ExpiringCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11955">
+          <caret line="830" column="0" lean-forward="false" selection-start-line="830" selection-start-column="0" selection-end-line="830" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="394" column="31" lean-forward="false" selection-start-line="394" selection-start-column="14" selection-end-line="394" selection-end-column="31" />
+          <folding>
+            <element signature="class#Node#0;class#HashMap#0" expanded="false" />
+            <element signature="method#comparableClassFor#0;class#HashMap#0" expanded="false" />
+            <element signature="method#tableSizeFor#0;class#HashMap#0" expanded="false" />
+            <element signature="e#24298#24299#0" expanded="true" />
+            <element signature="e#24363#24364#0" expanded="true" />
+            <element signature="class#TreeNode#0;class#HashMap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/com/sun/jmx/snmp/daemon/SnmpQManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="220" column="26" lean-forward="false" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="235" column="24" lean-forward="false" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReentrantLock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReadWriteLockDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="527" column="19" lean-forward="false" selection-start-line="527" selection-start-column="19" selection-end-line="527" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/DeadLockCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/LongAdderTest.java">
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockCPUDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#562#801#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebug/StampedLockTest.java">
+    <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="242">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#237#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1864,7 +1071,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>HighConcurreny</last-edited>
+          <last-edited>jvminaction</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1875,21 +1082,9 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: javassist:javassist:3.3</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.0.13</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -15,5 +15,8 @@ public class HashMapTest {
         hash.put(3,"cc");
         hash.put(4,"dd");
 
+
+
+
     }
 }

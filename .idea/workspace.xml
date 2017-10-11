@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
+    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="StampedLock是一个乐观读写锁。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/netty/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java" afterPath="$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
     <ignored path="$PROJECT_DIR$/thinkinjava/target/" />
+    <ignored path="$PROJECT_DIR$/netty/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +75,28 @@
       <file leaf-file-name="ReadWriteLockDemo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReadWriteLockDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="332">
               <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HighConcurreny/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,7 +105,7 @@
       <file leaf-file-name="StampedLock.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7320">
+            <state relative-caret-position="332">
               <caret line="527" column="19" lean-forward="false" selection-start-line="527" selection-start-column="19" selection-end-line="527" selection-end-column="19" />
               <folding />
             </state>
@@ -93,42 +115,22 @@
       <file leaf-file-name="AccumulatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="332">
               <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#221#237#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3180">
-              <caret line="235" column="24" lean-forward="false" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1305">
-              <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,6 +176,7 @@
         <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java" />
         <option value="$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockCPUDemo.java" />
         <option value="$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/netty/pom.xml" />
       </list>
     </option>
   </component>
@@ -190,9 +193,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="401" />
-    <option name="y" value="233" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="309" />
+    <option name="y" value="54" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
@@ -230,23 +233,13 @@
             <path>
               <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="HighConcurreny" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="HighConcurreny" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="HighConcurreny" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -566,7 +559,7 @@
       <workItem from="1503043857217" duration="12012000" />
       <workItem from="1503211690510" duration="4106000" />
       <workItem from="1503901094942" duration="1204000" />
-      <workItem from="1507636587239" duration="11000" />
+      <workItem from="1507636587239" duration="1450000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -589,14 +582,21 @@
       <option name="project" value="LOCAL" />
       <updated>1503286098623</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="StampedLock是一个乐观读写锁。">
+      <created>1507636610573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507636610573</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39188000" />
+    <option name="totallyTimeSpent" value="40627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="309" y="54" width="1280" height="773" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274596" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
@@ -610,7 +610,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28109854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28109854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -674,13 +674,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Void.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -726,14 +719,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/JDK8/completableFuture/CompletableFutureStream.java" />
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -858,14 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/io/UnixFileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -954,26 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReadWriteLockDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/StampedLock/StampedLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="15" lean-forward="false" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7320">
-          <caret line="527" column="19" lean-forward="false" selection-start-line="527" selection-start-column="19" selection-end-line="527" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -998,12 +959,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkinjava/src/main/java/collection/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#221#237#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/StampedLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="527" column="19" lean-forward="false" selection-start-line="527" selection-start-column="19" selection-end-line="527" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/ReadWriteLockDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighConcurreny/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HighConcurreny" />
         <module name="jvminaction" />
+        <module name="netty" />
         <module name="thinkinjava" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="HighConcurreny" target="1.8" />
-      <module name="jvminaction" target="1.8" />
+      <module name="HighConcurreny" target="1.5" />
+      <module name="jvminaction" target="1.5" />
       <module name="LearningOfThinkInJava" target="1.8" />
-      <module name="thinkinjava" target="1.8" />
+      <module name="netty" target="1.5" />
+      <module name="thinkinjava" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

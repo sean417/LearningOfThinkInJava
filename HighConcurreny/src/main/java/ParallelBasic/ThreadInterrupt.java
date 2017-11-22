@@ -15,7 +15,7 @@ public class ThreadInterrupt {
                         System.out.println("interrupt");
                         break;
                     }
-                    Thread.yield();
+//                    Thread.yield();
 
                 }
             }

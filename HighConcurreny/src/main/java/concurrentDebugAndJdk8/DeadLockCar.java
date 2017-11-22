@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 1.jps：找到进程号
  * 2.jstack pid: 能够看到死锁的线程，以及它在等待哪个资源。
  * 3.jstack -l pid:-l显示这个线程拥有哪个锁资源。
- * Created by chenyang3@01zhuanche.com on 2017/7/28.
+ * Created by chenyang on 2017/7/28.
  */
 public class DeadLockCar extends Thread {
     protected Object myDirect;

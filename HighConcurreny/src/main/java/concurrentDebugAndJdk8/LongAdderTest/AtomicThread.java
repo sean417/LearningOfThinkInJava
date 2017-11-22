@@ -7,7 +7,7 @@ import static concurrentDebugAndJdk8.LongAdderTest.LongAdderTest.*;
 import static concurrentDebugAndJdk8.LongAdderTest.LongAdderTest.TASK_COUNT;
 
 /**原子类的性能测试。
- * Created by chenyang3@01zhuanche.com on 2017/8/1.
+ * Created by chenyang on 2017/8/1.
  */
 public class AtomicThread implements Runnable{
 

@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.LongAccumulator;
  *
  * 下面例子是，100个线程调用accumulator.accumulate(value);
  * 用Long::max每次判断哪个大，把大的留下，初始值是Long.MIN_VALUE。
- * Created by chenyang3@01zhuanche.com on 2017/8/7.
+ * Created by chenyang on 2017/8/7.
  */
 public class AccumulatorTest {
 

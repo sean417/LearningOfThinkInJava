@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.LongAdder;
  * 3.但是一旦base修改发生冲突（CAS方式），就会初始化cell数组，使用新的策略。
  * 4.如果使用Cell数组更新后，发现某一个cell上更新依然发生冲突，那么系统会尝试创建新的cell,
  * 或者将cell的数量加倍，以减少冲突的可能。
- * Created by chenyang3@01zhuanche.com on 2017/7/30.
+ * Created by chenyang on 2017/7/30.
  */
 public class LongAdderTest {
     protected static final int MAX_THREADS=3;//线程数

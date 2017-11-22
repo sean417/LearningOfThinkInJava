@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import static concurrentDebugAndJdk8.LongAdderTest.LongAdderTest.*;
 
 /**同步锁的性能测试。
- * Created by chenyang3@01zhuanche.com on 2017/8/1.
+ * Created by chenyang on 2017/8/1.
  */
 public class SyncThread implements Runnable{
     protected String name;

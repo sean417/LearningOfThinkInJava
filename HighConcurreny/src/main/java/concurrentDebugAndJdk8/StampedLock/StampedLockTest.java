@@ -7,7 +7,7 @@ import java.util.concurrent.locks.StampedLock;
  * 1.通过使用tryOptimisticRead()或tryOptimisticWrite()来实现读和写线程可以同时
  * 操作数据，同时用stamp来维护版本，使数据不会发生不一致。
  * 2.同时StampedLock也有悲观的读写锁，读写互斥，写写互斥。
- * Created by chenyang3@01zhuanche.com on 2017/7/31.
+ * Created by chenyang on 2017/7/31.
  */
 public class StampedLockTest {
     private double x,y;

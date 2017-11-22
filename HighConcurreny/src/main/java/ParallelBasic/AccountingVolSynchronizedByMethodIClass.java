@@ -11,7 +11,7 @@ package ParallelBasic;
 public class AccountingVolSynchronizedByMethodIClass implements Runnable{
     static AccountingVolSynchronizedByMethodIClass instance=new AccountingVolSynchronizedByMethodIClass();
     static volatile int i=0;
-    public static synchronized void increase(){
+    public  synchronized void increase(){
         i++;
     }
 

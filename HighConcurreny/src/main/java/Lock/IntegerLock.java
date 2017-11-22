@@ -14,7 +14,7 @@ public class IntegerLock {
     static Integer i=0;
     public static class AddThread extends Thread{
         public void run(){
-            for(int k=0;k<100000;k++){
+            for(int k=0;k<10000;k++){
                 synchronized (i){
                     i++;
                 }

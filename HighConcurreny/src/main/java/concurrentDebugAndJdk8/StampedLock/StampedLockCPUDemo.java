@@ -7,7 +7,7 @@ import java.util.concurrent.locks.StampedLock;
  * 1.当写锁没有释放时，读线程试图获取读锁，获取不到，状态为waiting()
  * 2.当线程被interrupt()时，读线程状态会变为runnable，快速消耗cpu资源。
  * 3.readLockInterruptibly()会对中断有处理。
- * Created by chenyang3@01zhuanche.com on 2017/8/6.
+ * Created by chenyang on 2017/8/6.
  */
 public class StampedLockCPUDemo {
 

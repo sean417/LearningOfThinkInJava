@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * 如：!Thread.currentThread().getName().equals("main")，这样断点ArrayList的add方法里的断点之后
  * 在子线程真正调用add方法时停下。
  * 3.对于suspend选项：thread是应用线程的断掉，all代表所有线程包括vm的线程都会断掉。
- * Created by chenyang3@01zhuanche.com on 2017/7/21.
+ * Created by chenyang on 2017/7/21.
  */
 public class UnsafeArrayList {
     static ArrayList al=new ArrayList();

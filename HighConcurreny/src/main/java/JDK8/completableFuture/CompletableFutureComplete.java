@@ -5,7 +5,7 @@ import java.util.concurrent.CompletableFuture;
 /**
  * 1.myRe = re.get() * re.get()内：如果re.get()无值会阻塞。
  * 2.future.complete(60);后会接触阻塞。
- * Created by chenyang3@01zhuanche.com on 2017/7/19.
+ * Created by chenyang on 2017/7/19.
  */
 
 public class CompletableFutureComplete {

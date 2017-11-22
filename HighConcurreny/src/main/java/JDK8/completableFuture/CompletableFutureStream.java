@@ -4,7 +4,7 @@ import java.util.concurrent.CompletableFuture;
 
 /**流式调用：
  * 1.
- * Created by chenyang3@01zhuanche.com on 2017/7/21.
+ * Created by chenyang on 2017/7/21.
  */
 public class CompletableFutureStream {
     public static Integer calc(Integer para){

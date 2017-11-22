@@ -4,7 +4,7 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * 捕捉异步线程的异常信息
- * Created by chenyang3@01zhuanche.com on 2017/7/21.
+ * Created by chenyang on 2017/7/21.
  */
 public class CompletabeFutureException {
     public static Integer calc(Integer para){

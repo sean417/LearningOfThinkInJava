@@ -3,7 +3,7 @@ package JDK8.completableFuture;
 import java.util.concurrent.CompletableFuture;
 
 /**CompletableFuture可以将多个CompletableFuture进行组合。
- * Created by chenyang3@01zhuanche.com on 2017/7/21.
+ * Created by chenyang on 2017/7/21.
  */
 public class CompletableFutureCombine {
 

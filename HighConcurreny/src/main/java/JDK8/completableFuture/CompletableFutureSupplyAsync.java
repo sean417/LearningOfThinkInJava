@@ -8,7 +8,7 @@ import java.util.concurrent.CompletableFuture;
  * 3.future.get()如果子线程没执行完calc(),会阻塞。
  * 4.CompletableFuture.supplyAsync()默认用的是ForkJoinPool.commonPool()方法，获得一个ForkJoin线程池。这个线程池
  * 内的线程都是Daemon线程，如果主线程退出，这些线程无论执行完了没有都会退出系统。
- * Created by chenyang3@01zhuanche.com on 2017/7/20.
+ * Created by chenyang on 2017/7/20.
  */
 public class CompletableFutureSupplyAsync {
     public static Integer calc(Integer para){

@@ -37,6 +37,14 @@ package jvmbasicstructure;
 
     12毫秒完成
  *
+ *
+ * 逃逸：当一个对象的指针被多个方法或线程引用时，我们称这个指针发生了逃逸，一般情况返回对象、对全局变量的赋值一般都会发生逃逸。
+ *
+ * 逃逸分析：用来分析这种逃逸现象的方法称为逃逸分析
+ *
+ *逃逸分析优化-栈上分配：栈上分配的意思是方法内局部变量（未发生逃逸）生成的实例在栈上分配，不用在堆中分配，分配完成后，继续在调用栈内执行，最后线程结束，栈空间被回收，局部变量对象也被回收。
+ * 什么时候用栈上分配？
+ * 1.
  * Created by chenyang on 2017/1/31.
  */
 public class OnStackTest2 {
@@ -44,6 +52,7 @@ public class OnStackTest2 {
         public int id=0;
         public String name="";
     }
+//    static User u;
     public static void alloc(){
         User u=new User();
         u.id=5;

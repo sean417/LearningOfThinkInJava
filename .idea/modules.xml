@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" filepath="$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LearningOfThinkInJava.iml" filepath="$PROJECT_DIR$/.idea/LearningOfThinkInJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvminaction/jvminaction.iml" filepath="$PROJECT_DIR$/jvminaction/jvminaction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinkinjava/thinkinjava.iml" filepath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" />
     </modules>
   </component>

@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HighConcurreny" />
         <module name="jvminaction" />
-        <module name="netty" />
         <module name="thinkinjava" />
       </profile>
     </annotationProcessing>

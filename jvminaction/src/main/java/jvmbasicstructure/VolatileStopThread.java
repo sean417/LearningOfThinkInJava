@@ -43,9 +43,9 @@ public class VolatileStopThread extends  Thread {
 
     public static void main(String[] args) throws InterruptedException{
         VolatileStopThread t=new VolatileStopThread();
-        t.start();
+        t.start();//子线程
         Thread.sleep(1000);
-        t.stepMe();
+        t.stepMe();//主线程
         Thread.sleep(1000);
     }
 }

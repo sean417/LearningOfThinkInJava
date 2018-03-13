@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/netty/netty.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/netty/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/netty/src/main/java/Test.java" afterPath="" />
+    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="删除netty module">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" afterPath="$PROJECT_DIR$/HighConcurreny/HighConcurreny.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" afterPath="$PROJECT_DIR$/thinkinjava/thinkinjava.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -38,16 +34,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountingVolSynchronizedByMethodInstanceBad.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/ParallelBasic/AccountingVolSynchronizedByMethodInstanceBad.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -106,18 +92,28 @@
       <file leaf-file-name="OnStackTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnStackTest2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OnStackTest2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
+            <state relative-caret-position="15">
               <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -202,6 +198,8 @@
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/scanjvm/OriginMaBuMa.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/scanjvm/OnStackTest.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest2.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -218,9 +216,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="111" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -242,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,12 +247,39 @@
               <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="jvminaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="jvminaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="jvminaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
+              <item name="jvminaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -575,7 +598,8 @@
       <workItem from="1518496630061" duration="2823000" />
       <workItem from="1519265253644" duration="134000" />
       <workItem from="1519803549981" duration="7720000" />
-      <workItem from="1520141202570" duration="261000" />
+      <workItem from="1520141202570" duration="340000" />
+      <workItem from="1520902853462" duration="539000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -654,14 +678,35 @@
       <option name="project" value="LOCAL" />
       <updated>1519812540111</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="删除netty module">
+      <created>1520217420045</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1520217420045</updated>
+    </task>
+    <task id="LOCAL-00014" summary="删除netty module">
+      <created>1520902910928</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1520902910928</updated>
+    </task>
+    <task id="LOCAL-00015" summary="栈上分配">
+      <created>1520903127588</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1520903127588</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63950000" />
+    <option name="totallyTimeSpent" value="64568000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="2" y="23" width="1280" height="777" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274596" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
@@ -670,19 +715,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26099706" sideWeight="0.2956381" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26099706" sideWeight="0.70436186" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.49353796" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26099706" sideWeight="0.70436186" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.49030694" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30613893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31098545" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34017596" sideWeight="0.6437803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34017596" sideWeight="0.6437803" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -709,7 +754,9 @@
     <MESSAGE value="netty 学习" />
     <MESSAGE value="多线程" />
     <MESSAGE value="逃逸分析，栈上分配" />
-    <option name="LAST_COMMIT_MESSAGE" value="逃逸分析，栈上分配" />
+    <MESSAGE value="删除netty module" />
+    <MESSAGE value="栈上分配" />
+    <option name="LAST_COMMIT_MESSAGE" value="栈上分配" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,13 +783,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/ParallelBasic/AccountingVolSynchronizedByMethodIClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/Lock/AtomicIntegerVSlockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -883,13 +923,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/netty/src/main/java/Test.java" />
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1084,18 +1118,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/scanjvm/OnStackTest.java" />
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java">
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="15">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest2.java">
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

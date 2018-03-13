@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="删除netty module">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
@@ -599,7 +598,7 @@
       <workItem from="1519265253644" duration="134000" />
       <workItem from="1519803549981" duration="7720000" />
       <workItem from="1520141202570" duration="340000" />
-      <workItem from="1520902853462" duration="539000" />
+      <workItem from="1520902853462" duration="563000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -699,11 +698,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520903127588</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="删除netty module">
+      <created>1520903396533</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1520903396533</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64568000" />
+    <option name="totallyTimeSpent" value="64592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1280" height="777" extended-state="6" />
@@ -754,9 +760,9 @@
     <MESSAGE value="netty 学习" />
     <MESSAGE value="多线程" />
     <MESSAGE value="逃逸分析，栈上分配" />
-    <MESSAGE value="删除netty module" />
     <MESSAGE value="栈上分配" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈上分配" />
+    <MESSAGE value="删除netty module" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除netty module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

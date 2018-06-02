@@ -3,7 +3,8 @@ package JVMargument;
 /*
  @author:   chenyang
  @date  2018/4/7 下午6:17
-
+-XX:+TraceClassUnloading -XX:+TraceClassLoading 可以跟踪类的加载和卸载的过程。
+从日志看出，先加载的事java.lang.Object,最后是Example。
 */
 
 

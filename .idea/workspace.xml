@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="volatile补充">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gc.log" afterPath="$PROJECT_DIR$/gc.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
     <ignored path="$PROJECT_DIR$/thinkinjava/target/" />
     <ignored path="$PROJECT_DIR$/netty/target/" />
+    <ignored path="$PROJECT_DIR$/designPattern/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +82,8 @@
       <file leaf-file-name="UnloadClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+            <state relative-caret-position="75">
+              <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,7 +209,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-25" />
+    <option name="x" value="-13" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -608,7 +606,7 @@
       <workItem from="1521627151455" duration="8059000" />
       <workItem from="1521857905988" duration="929000" />
       <workItem from="1522942525716" duration="3384000" />
-      <workItem from="1525565569235" duration="2864000" />
+      <workItem from="1525565569235" duration="3243000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -736,14 +734,28 @@
       <option name="project" value="LOCAL" />
       <updated>1523099472784</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="volatile补充">
+      <created>1527902317264</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1527902317264</updated>
+    </task>
+    <task id="LOCAL-00021" summary="volatile补充">
+      <created>1527902671731</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1527902671731</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85352000" />
+    <option name="totallyTimeSpent" value="85731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-25" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="-13" y="23" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274596" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
@@ -809,7 +821,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java</url>
-          <line>37</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
@@ -1180,8 +1192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        <state relative-caret-position="75">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -47,15 +47,19 @@ package JVMargument;
  3）
 3.-Xmx20m -Xms20m -Xmn7m -XX:SurviviorRadio=1 -XX:+PrintGCDetails
 
- -XX:SurvivorRatio=eden/from=eden/to
- 四次gc.
+ -XX:SurvivorRatio=eden/from=eden/
  * Created by chenyang on 2017/1/30.
  */
 public class NewSizeDemo {
     public static void main(String[] args) {
         byte[] b=null;
-        for(int i=0;i<10;i++){
+        for(int i=0;i<100;i++){
             b=new byte[1*1024*1024];
+            try {
+                Thread.sleep(1000);
+            }catch (Exception ex){
+
+            }
         }
     }
 }

@@ -3,12 +3,13 @@ package JVMargument;
 /*
  @author:   chenyang
  @date  2018/4/7 下午6:17
+ 动态类的加载是非常隐蔽的，由代码的逻辑控制，不在文件系统中。这样加载的类的情况不明。
 -XX:+TraceClassUnloading -XX:+TraceClassLoading 可以跟踪类的加载和卸载的过程。
 从日志看出，先加载的事java.lang.Object,最后是Example。
+-XX:+TraceClassUnloading -XX:+TraceClassLoading
 */
 
 
-import com.sun.org.apache.bcel.internal.generic.GETSTATIC;
 import jdk.internal.org.objectweb.asm.ClassWriter;
 import jdk.internal.org.objectweb.asm.MethodVisitor;
 

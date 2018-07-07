@@ -53,10 +53,10 @@ package JVMargument;
 public class NewSizeDemo {
     public static void main(String[] args) {
         byte[] b=null;
-        for(int i=0;i<100;i++){
+        for(int i=0;i<10;i++){
             b=new byte[1*1024*1024];
             try {
-                Thread.sleep(1000);
+//                Thread.sleep(1000);
             }catch (Exception ex){
 
             }

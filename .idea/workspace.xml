@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeapAlloc.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeapAlloc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+            <state relative-caret-position="600">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -87,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewSizeDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewSizeDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="204">
+              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -99,7 +99,7 @@
       <file leaf-file-name="UnloadClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="255">
               <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -192,9 +192,9 @@
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/VolatileStopThread.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java" />
       </list>
     </option>
   </component>
@@ -212,8 +212,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="23" />
+    <option name="x" value="70" />
+    <option name="y" value="25" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -289,8 +289,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -321,14 +321,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapAlloc">
+  <component name="RunManager" selected="Application.NewSizeDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="HeapAlloc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVMargument.HeapAlloc" />
       <module name="jvminaction" />
-      <option name="VM_PARAMETERS" value="-Xmx20m -Xms5m -XX:+PrintGCDetails" />
+      <option name="VM_PARAMETERS" value="-Xmx20m -Xms20m -Xmn1m -XX:+PrintGCDetails" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -340,7 +340,7 @@
     <configuration name="NewSizeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVMargument.NewSizeDemo" />
       <module name="jvminaction" />
-      <option name="VM_PARAMETERS" value="-Xmx10m -Xms5m -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime" />
+      <option name="VM_PARAMETERS" value="-Xmx20m -Xms20m -Xmn7m -XX:+PrintGCDetails" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -512,9 +512,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewSizeDemo" />
         <item itemvalue="Application.HeapAlloc" />
         <item itemvalue="Application.UnloadClass" />
-        <item itemvalue="Application.NewSizeDemo" />
         <item itemvalue="Application.OnStackTest2" />
         <item itemvalue="Application.OnStackTest" />
       </list>
@@ -562,7 +562,8 @@
       <workItem from="1522942525716" duration="3384000" />
       <workItem from="1525565569235" duration="8133000" />
       <workItem from="1529719288628" duration="180000" />
-      <workItem from="1529732778586" duration="2362000" />
+      <workItem from="1529732778586" duration="10662000" />
+      <workItem from="1530975240150" duration="655000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -718,48 +719,54 @@
       <option name="project" value="LOCAL" />
       <updated>1529719308770</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC">
+      <created>1529747371101</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1529747371101</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93163000" />
+    <option name="totallyTimeSpent" value="102118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="73" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="70" y="25" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.3274596" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4749596" weight="0.32352942" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4628433" weight="0.32352942" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.1542811" side_tool="true" visible="true" weight="0.30882353" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16639742" side_tool="true" visible="true" weight="0.43529412" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8457189" visible="true" weight="0.30882353" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49353796" weight="0.32890856" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8336026" visible="true" weight="0.43529412" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49030694" weight="0.32599118" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22051696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22374798" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6437803" weight="0.34017596" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6429725" weight="0.33970588" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.16558966" />
       <window_info anchor="right" x="690" y="591" width="590" height="209" id="Documentation" order="4" type="FLOATING" />
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.16558966" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="JProfiler" order="8" />
+      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1914378" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
     </layout>
@@ -781,7 +788,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="volatile补充" />
     <MESSAGE value="-XX:+TraceClassUnloading -XX:+TraceClassLoading" />
-    <option name="LAST_COMMIT_MESSAGE" value="-XX:+TraceClassUnloading -XX:+TraceClassLoading" />
+    <MESSAGE value="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,6 +821,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar!/com/sun/xml/internal/ws/org/objectweb/asm/Opcodes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/IntLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1017,9 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/scanjvm/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/scanjvm/OriginMaBuMa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1084,9 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/gc.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/TestStackDeep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1129,16 +1145,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="600">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="255">
           <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1146,10 +1162,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java">
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="54" column="75" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+        <state relative-caret-position="204">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
         </state>
       </provider>
     </entry>

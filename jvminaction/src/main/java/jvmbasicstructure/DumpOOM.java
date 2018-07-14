@@ -7,6 +7,8 @@ import java.util.List;
  *
  *
  * Created by chenyang on 2017/1/30.
+ * -Xmx20m -Xms5m
+ * -Xmx20m -Xms5m -XX:+HeapDumpOnOutOfMemoryError
  */
 public class DumpOOM {
 

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -99,8 +98,8 @@
       <file leaf-file-name="AccessDirectBuffer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="218">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -193,8 +192,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="23" />
+    <option name="x" value="151" />
+    <option name="y" value="32" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -547,7 +546,7 @@
       <workItem from="1529732778586" duration="10662000" />
       <workItem from="1530975240150" duration="1722000" />
       <workItem from="1531067430972" duration="435000" />
-      <workItem from="1531544182900" duration="1487000" />
+      <workItem from="1531544182900" duration="2089000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -717,15 +716,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530978740101</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="直接内存配置">
+      <created>1531579878062</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1531579878062</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105107000" />
+    <option name="totallyTimeSpent" value="105709000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="151" y="32" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.3274596" />
@@ -781,7 +786,8 @@
     <MESSAGE value="volatile补充" />
     <MESSAGE value="-XX:+TraceClassUnloading -XX:+TraceClassLoading" />
     <MESSAGE value="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC" />
+    <MESSAGE value="直接内存配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="直接内存配置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1156,8 +1162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="218">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>

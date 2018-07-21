@@ -24,6 +24,9 @@
     <SUITE FILE_PATH="coverage/LearningOfThinkInJava$NewSizeDemo.coverage" NAME="NewSizeDemo Coverage Results" MODIFIED="1527912345085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>JVMargument.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/LearningOfThinkInJava$AccessDirectBuffer.ic" NAME="AccessDirectBuffer Coverage Results" MODIFIED="1532164274199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>JVMargument.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
@@ -47,59 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OnStackTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DumpOOM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeapAlloc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewSizeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnloadClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccessDirectBuffer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="139">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -192,8 +147,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="32" />
+    <option name="x" value="13" />
+    <option name="y" value="116" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -205,7 +160,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,8 +227,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,6 +238,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -302,9 +258,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DumpOOM">
+  <component name="RunManager" selected="Application.AccessDirectBuffer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="AccessDirectBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVMargument.AccessDirectBuffer" />
+      <module name="jvminaction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JVMargument.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="DumpOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jvmbasicstructure.DumpOOM" />
@@ -338,18 +305,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JVMargument.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="OnStackTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jvmbasicstructure.OnStackTest2" />
-      <module name="jvminaction" />
-      <option name="VM_PARAMETERS" value="-server -Xmx10m -Xms10m -XX:+PrintGC" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jvmbasicstructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -485,19 +440,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.OnStackTest2" />
       <item itemvalue="Application.HeapAlloc" />
       <item itemvalue="Application.NewSizeDemo" />
       <item itemvalue="Application.UnloadClass" />
       <item itemvalue="Application.DumpOOM" />
+      <item itemvalue="Application.AccessDirectBuffer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessDirectBuffer" />
         <item itemvalue="Application.DumpOOM" />
         <item itemvalue="Application.NewSizeDemo" />
         <item itemvalue="Application.HeapAlloc" />
         <item itemvalue="Application.UnloadClass" />
-        <item itemvalue="Application.OnStackTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -547,6 +502,7 @@
       <workItem from="1530975240150" duration="1722000" />
       <workItem from="1531067430972" duration="435000" />
       <workItem from="1531544182900" duration="2089000" />
+      <workItem from="1532164040986" duration="252000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -727,33 +683,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105709000" />
+    <option name="totallyTimeSpent" value="105961000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="32" width="1280" height="777" extended-state="0" />
+    <frame x="13" y="116" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.3274596" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.46122777" weight="0.32352942" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.46042004" weight="0.32352942" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16882068" side_tool="true" visible="true" weight="0.43529412" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16962843" side_tool="true" visible="true" weight="0.43529412" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8311793" visible="true" weight="0.43529412" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49353796" weight="0.32890856" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83037156" visible="true" weight="0.43529412" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.07431341" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49030694" weight="0.32599118" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23021002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36672053" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6429725" weight="0.33970588" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6429725" weight="0.33970588" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="PlantUML" order="3" />
@@ -762,10 +720,8 @@
       <window_info anchor="right" x="690" y="591" width="590" height="209" id="Documentation" order="4" type="FLOATING" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="JProfiler" order="8" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1914378" />
       <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.16558966" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1914378" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1124,7 +1080,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/OnStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="165">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
@@ -1138,21 +1094,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/HeapAlloc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="600">
           <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-179">
-          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        <state relative-caret-position="510">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/UnloadClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="285">
           <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1162,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="139">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>

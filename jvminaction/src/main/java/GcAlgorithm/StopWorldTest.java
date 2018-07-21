@@ -1,4 +1,4 @@
-package GcDefinition;
+package GcAlgorithm;
 
 import java.util.HashMap;
 

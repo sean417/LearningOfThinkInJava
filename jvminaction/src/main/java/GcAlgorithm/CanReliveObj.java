@@ -1,4 +1,4 @@
-package GcDefinition;
+package GcAlgorithm;
 
 /**
  * 对象的复活：

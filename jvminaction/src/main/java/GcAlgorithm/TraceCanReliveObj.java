@@ -1,8 +1,7 @@
-package GcDefinition;
+package GcAlgorithm;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
-import java.lang.ref.WeakReference;
 
 /**
  * Created by chenyang on 2017/2/2.

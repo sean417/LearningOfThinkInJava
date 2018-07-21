@@ -45,6 +45,27 @@ public class AccessDirectBuffer {
         System.out.println("testBufferWrite:"+(endtime-starttime));
     }
 
+
+    public void directAllocate(){
+        long starttime=System.currentTimeMillis();
+        for(int i=0;i<200000;i++){
+            ByteBuffer b=ByteBuffer.allocateDirect(1000);
+        }
+
+        long endtime=System.currentTimeMillis();
+        System.out.println("directAllocation:"+(endtime-starttime));
+    }
+
+
+    public void bufferAllocate(){
+        long starttime=System.currentTimeMillis();
+        for(int i=0;i<200000;i++){
+            ByteBuffer b=ByteBuffer.allocateDirect(1000);
+        }
+
+        long endtime=System.currentTimeMillis();
+        System.out.println("bufferAllocation:"+(endtime-starttime));
+    }
     public static void main(String[] args) {
         AccessDirectBuffer alloc=new AccessDirectBuffer();
         alloc.bufferAccess();
@@ -52,7 +73,11 @@ public class AccessDirectBuffer {
 
         alloc.bufferAccess();
         alloc.directAccess();
+
+        alloc.bufferAllocate();
+        alloc.directAllocate();
+
+        alloc.bufferAllocate();
+        alloc.directAllocate();
     }
-
-
 }

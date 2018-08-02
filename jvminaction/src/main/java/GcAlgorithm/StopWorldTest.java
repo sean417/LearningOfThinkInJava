@@ -50,7 +50,7 @@ public class StopWorldTest {
             try {
                 while (true) {
                     long t = System.currentTimeMillis() - starttime;
-                    System.out.println("time:" + t);
+                    System.out.println(t/1000+"." + t%1000);
                     Thread.sleep(100);
                 }
             } catch (Exception e) {

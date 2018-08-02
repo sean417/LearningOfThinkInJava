@@ -80,8 +80,8 @@
       <file leaf-file-name="StopWorldTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+            <state relative-caret-position="52">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -176,8 +176,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="36" />
+    <option name="x" value="95" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -332,7 +332,7 @@
     <configuration name="StopWorldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GcAlgorithm.StopWorldTest" />
       <module name="jvminaction" />
-      <option name="VM_PARAMETERS" value="-Xmx1g -Xms1g -XX:+UseSerialGC -XX:+PrintGCDetails -Xmn1m" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms512m -XX:+UseSerialGC -XX:+PrintGCDetails -Xmn1m" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -526,7 +526,7 @@
       <workItem from="1532312886125" duration="638000" />
       <workItem from="1532784666241" duration="566000" />
       <workItem from="1532870690272" duration="520000" />
-      <workItem from="1533091861060" duration="1076000" />
+      <workItem from="1533091861060" duration="3665000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -717,25 +717,32 @@
       <option name="project" value="LOCAL" />
       <updated>1532185597386</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="JVMargument">
+      <created>1533179779734</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1533179779734</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110924000" />
+    <option name="totallyTimeSpent" value="113513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="36" width="1280" height="777" extended-state="0" />
+    <frame x="95" y="23" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.3274596" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.45638126" weight="0.32352942" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.453958" weight="0.32352942" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17447495" side_tool="true" visible="true" weight="0.43529412" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.11712439" side_tool="true" visible="true" weight="0.5176471" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82552505" visible="true" weight="0.43529412" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8828756" visible="true" weight="0.5176471" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49353796" weight="0.32890856" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48707592" weight="0.32352942" />
       <window_info id="Capture Tool" order="2" />
@@ -1157,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="52">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>

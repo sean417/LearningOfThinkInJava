@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -50,11 +50,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccessDirectBuffer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccessDirectBuffer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state>
+              <caret column="19" selection-start-column="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CanReliveObj.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/CanReliveObj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7200">
+              <caret line="507" column="62" selection-start-line="507" selection-start-column="62" selection-end-line="507" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StopWorldTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -83,6 +110,7 @@
       <find>小对象</find>
       <find>Exmple</find>
       <find>Example</find>
+      <find>finalize</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/jvminaction</dir>
@@ -130,6 +158,7 @@
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" />
       </list>
     </option>
   </component>
@@ -147,8 +176,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="116" />
+    <option name="x" value="125" />
+    <option name="y" value="36" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
@@ -160,9 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +231,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="JVMargument" type="462c0819:PsiDirectoryNode" />
+              <item name="GcAlgorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
@@ -214,23 +242,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jvmbasicstructure" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="jvminaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scanjvm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Dump&#9;FILE&#9;file:///Users/laogongchenyang/project/learning/LearningOfThinkInJava/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" />
+    <property name="SearchEverywhereHistoryKey" value="Print&#9;PSI&#9;JAVA://GcAlgorithm.StopWorldTest.PrintThread&#10;Dump&#9;FILE&#9;file:///Users/laogongchenyang/project/learning/LearningOfThinkInJava/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -258,17 +278,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccessDirectBuffer">
+  <component name="RunManager" selected="Application.StopWorldTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="AccessDirectBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVMargument.AccessDirectBuffer" />
       <module name="jvminaction" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="VM_PARAMETERS" value="-server" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JVMargument.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CanReliveObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GcAlgorithm.CanReliveObj" />
+      <module name="jvminaction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GcAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,18 +317,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="HeapAlloc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JVMargument.HeapAlloc" />
-      <module name="jvminaction" />
-      <option name="VM_PARAMETERS" value="-Xmx20m -Xms20m -Xmn1m -XX:+PrintGCDetails" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JVMargument.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="NewSizeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JVMargument.NewSizeDemo" />
       <module name="jvminaction" />
@@ -309,14 +329,14 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="UnloadClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JVMargument.UnloadClass" />
+    <configuration name="StopWorldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GcAlgorithm.StopWorldTest" />
       <module name="jvminaction" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintCommandLineFlags" />
+      <option name="VM_PARAMETERS" value="-Xmx1g -Xms1g -XX:+UseSerialGC -XX:+PrintGCDetails -Xmn1m" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JVMargument.*" />
+          <option name="PATTERN" value="GcAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,19 +460,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.HeapAlloc" />
       <item itemvalue="Application.NewSizeDemo" />
-      <item itemvalue="Application.UnloadClass" />
       <item itemvalue="Application.DumpOOM" />
       <item itemvalue="Application.AccessDirectBuffer" />
+      <item itemvalue="Application.CanReliveObj" />
+      <item itemvalue="Application.StopWorldTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StopWorldTest" />
+        <item itemvalue="Application.CanReliveObj" />
         <item itemvalue="Application.AccessDirectBuffer" />
         <item itemvalue="Application.DumpOOM" />
         <item itemvalue="Application.NewSizeDemo" />
-        <item itemvalue="Application.HeapAlloc" />
-        <item itemvalue="Application.UnloadClass" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +522,11 @@
       <workItem from="1530975240150" duration="1722000" />
       <workItem from="1531067430972" duration="435000" />
       <workItem from="1531544182900" duration="2089000" />
-      <workItem from="1532164040986" duration="252000" />
+      <workItem from="1532164040986" duration="2415000" />
+      <workItem from="1532312886125" duration="638000" />
+      <workItem from="1532784666241" duration="566000" />
+      <workItem from="1532870690272" duration="520000" />
+      <workItem from="1533091861060" duration="1076000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -679,39 +703,51 @@
       <option name="project" value="LOCAL" />
       <updated>1531579878062</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="直接内存配置">
+      <created>1532164300578</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1532164300578</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JVMargument">
+      <created>1532185597386</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1532185597386</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105961000" />
+    <option name="totallyTimeSpent" value="110924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="116" width="1280" height="777" extended-state="0" />
+    <frame x="125" y="36" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.3274596" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.46042004" weight="0.32352942" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.45638126" weight="0.32352942" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.16962843" side_tool="true" visible="true" weight="0.43529412" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.17447495" side_tool="true" visible="true" weight="0.43529412" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.82552505" visible="true" weight="0.43529412" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49353796" weight="0.32890856" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83037156" visible="true" weight="0.43529412" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.07431341" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49030694" weight="0.32599118" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48707592" weight="0.32352942" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36672053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6429725" weight="0.33970588" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="PlantUML" order="3" />
@@ -720,8 +756,10 @@
       <window_info anchor="right" x="690" y="591" width="590" height="209" id="Documentation" order="4" type="FLOATING" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="JProfiler" order="8" />
-      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1914378" />
+      <window_info anchor="right" id="Properties" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.07431341" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,7 +781,8 @@
     <MESSAGE value="-XX:+TraceClassUnloading -XX:+TraceClassLoading" />
     <MESSAGE value="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC" />
     <MESSAGE value="直接内存配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="直接内存配置" />
+    <MESSAGE value="JVMargument" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVMargument" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -775,27 +814,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/NewSizeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk1/IntLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk2/ScheduledExecutorFixedRateServiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-232">
@@ -1118,8 +1136,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state>
+          <caret column="19" selection-start-column="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/CanReliveObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7200">
+          <caret line="507" column="62" selection-start-line="507" selection-start-column="62" selection-end-line="507" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
         </state>
       </provider>
     </entry>

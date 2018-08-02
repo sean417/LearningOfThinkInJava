@@ -28,7 +28,7 @@ public class StopWorldTest {
                 while (true){
                     if(map.size()*512/1024/1024>=450){
                         System.out.println("============准备清理==========:"+map.size());//大于450M时，清理内存。
-                        map.clear();
+                        map.clear();//让对象没有引用，让GC回收成功。
                         System.out.println("clean map");
                     }
                     for(int i=0;i<100;i++){

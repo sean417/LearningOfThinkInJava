@@ -7,6 +7,12 @@ import java.lang.ref.SoftReference;
  * 就会被回收。
  *
  * 启动参数：-Xmx10m -Xms10m -XX:+UseSerialGC -XX:+PrintGCDetails -Xmn1m
+ *
+ *   使用参数-Xmx10m运行上述代码，得到：
+ *   [id=1,name=geym]（从软引用获取数据）
+ *   After GC:
+ *   [id=1,name=geym]（GC没有清除软引用）
+ *   null (由于内存紧张，软引用虽然还在但是对象还是被回收了)
  * Created by chenyang on 2017/2/2.
  */
 public class SoftRef {

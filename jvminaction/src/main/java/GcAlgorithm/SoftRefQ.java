@@ -8,7 +8,14 @@ import java.lang.ref.SoftReference;
  * 每一个软引用都可以附带一个引用队列，当对象的可达性发生改变（由可达变为不可达），
  * 软引用对象就会进入引用队列。通过这个引用队列，可以跟踪对象的回收情况。
  *
- * 执行参数-Xmx10m
+ *[id=1,name=geym]（从软引用获取对象）
+ * After GC:
+ * [id=1,name=geym]（GC没有清除软引用指向的对象）
+ * try to create byte array and GC （创建大数组，耗尽内存）
+ * user id 1 is deleted (引用队列探测到对象被删除)
+ * null (由于内存紧张，软引用虽然还在但是对象还是被回收了)
+ *
+ *
  * Created by chenyang on 2017/2/2.
  */
 public class SoftRefQ {
@@ -57,7 +64,7 @@ public class SoftRefQ {
         Thread t=new CheckRefQueue();
         t.setDaemon(true);
         t.start();
-        User u=new User(1,"geym");
+        User u=new User(1,"chenyang");
         softQueue=new ReferenceQueue<User>();
         UserSoftReference userSoftRef=new UserSoftReference(u,softQueue);
 

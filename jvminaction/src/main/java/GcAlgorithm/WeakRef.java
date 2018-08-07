@@ -7,6 +7,11 @@ import java.lang.ref.WeakReference;
  * 都会将对象进行回收。但是，由于垃圾回收期的线程通常优先级很低，并不一定很快发现持有的弱引用对象。
  * 软引用和弱引用非常适合那些可有可无的缓存数据。当系统堆内存很低时，系统回收。当系统堆内存很高时，
  * 这些缓存又能存在很长时间，从而起到加速系统的作用。
+ *
+ * 输出为：
+ * [id=1,name=geym]（从弱引用获取对象）
+ * After GC:
+ * null                          (弱对象被回收了)
  * Created by chenyang on 2017/2/2.
  */
 public class WeakRef {
@@ -20,7 +25,7 @@ public class WeakRef {
     }
 
     public static void main(String[] args) {
-        User u=new User(1,"geym");
+        User u=new User(1,"chenyang");
         WeakReference<User> userWeakRef=new WeakReference<User>(u);
         u=null;
         System.out.println(userWeakRef.get());

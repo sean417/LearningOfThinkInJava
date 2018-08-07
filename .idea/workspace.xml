@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -50,24 +52,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccessDirectBuffer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CanReliveObj.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/CanReliveObj.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Object.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +61,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopWorldTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StopWorldTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftRef.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakRef.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="4" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftRefQ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +173,9 @@
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java" />
       </list>
     </option>
   </component>
@@ -176,7 +193,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="95" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -189,8 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,11 +259,50 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jvmbasicstructure" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="ref" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,7 +582,11 @@
       <workItem from="1532312886125" duration="638000" />
       <workItem from="1532784666241" duration="566000" />
       <workItem from="1532870690272" duration="520000" />
-      <workItem from="1533091861060" duration="3665000" />
+      <workItem from="1533091861060" duration="5866000" />
+      <workItem from="1533389955282" duration="201000" />
+      <workItem from="1533391256822" duration="168000" />
+      <workItem from="1533477544637" duration="797000" />
+      <workItem from="1533628356474" duration="2214000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -724,30 +784,47 @@
       <option name="project" value="LOCAL" />
       <updated>1533179779734</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="JVMargument">
+      <created>1533183392913</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1533183392913</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113513000" />
+    <option name="totallyTimeSpent" value="119094000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="95" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="4" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49353796" weight="0.3274596" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.453958" weight="0.32352942" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.48869145" visible="true" weight="0.32647058" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.11712439" side_tool="true" visible="true" weight="0.5176471" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51130855" side_tool="true" visible="true" weight="0.32647058" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8828756" visible="true" weight="0.5176471" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49353796" weight="0.32890856" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48707592" weight="0.32352942" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8828756" weight="0.5176471" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4911147" weight="0.32794118" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48626816" weight="0.32352942" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27544427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924071" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,6 +832,7 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6429725" weight="0.33970588" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.453958" weight="0.32352942" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="PlantUML" order="3" />
@@ -765,12 +843,37 @@
       <window_info anchor="bottom" id="JProfiler" order="8" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.1914378" />
       <window_info anchor="right" id="Properties" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.07431341" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -821,63 +924,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="1179" column="23" selection-start-line="1179" selection-start-column="14" selection-end-line="1179" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk2/ThreadPoolDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk2/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/jdk2/ScheduledExecutorServiceDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/Test.java" />
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AccumulatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/AtomicThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/LongAdderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/LongAddrThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1164,8 +1210,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="375">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.ref.Reference">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.ref.Reference</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">java.lang.ref.Reference</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="15.0" />
+          <SelectedNodes>
+            <node>java.lang.ref.Reference</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/ref/FinalReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.ref.SoftReference">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.ref.SoftReference</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.ref.Reference</node>
+            <node x="" y="">java.lang.ref.SoftReference</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="266.5" y="16.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.String">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.String</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.CharSequence</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">java.lang.String</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="408.0" y="16.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/ref/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="305" column="4" selection-start-line="305" selection-start-column="4" selection-end-line="305" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/ref/SoftReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="98" column="11" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="4" selection-end-line="32" selection-end-column="1" />
         </state>
       </provider>
     </entry>

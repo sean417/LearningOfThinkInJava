@@ -11,7 +11,7 @@ import java.lang.ref.WeakReference;
  * 输出为：
  * [id=1,name=geym]（从弱引用获取对象）
  * After GC:
- * null                          (弱对象被回收了)
+ * null             (弱对象被回收了)
  * Created by chenyang on 2017/2/2.
  */
 public class WeakRef {

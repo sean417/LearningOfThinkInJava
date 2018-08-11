@@ -5,6 +5,9 @@ import java.lang.ref.ReferenceQueue;
 
 /**
  * Created by chenyang on 2017/2/2.
+ *
+ *
+ *
  */
 public class TraceCanReliveObj {
     public static TraceCanReliveObj obj;

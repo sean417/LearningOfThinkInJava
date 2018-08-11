@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cec942e9-2ac1-4c02-9049-7768d4422374" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/TraceCanReliveObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/TraceCanReliveObj.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HighConcurreny/target/" />
     <ignored path="$PROJECT_DIR$/jvminaction/target/" />
@@ -73,17 +71,32 @@
       <file leaf-file-name="SoftRef.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding>
+                <element signature="e#934#940#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeakRef.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TraceCanReliveObj.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/TraceCanReliveObj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeakRef.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="4" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -91,8 +104,8 @@
       <file leaf-file-name="SoftRefQ.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="210">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,9 +186,10 @@
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/jvmbasicstructure/DumpOOM.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/JVMargument/AccessDirectBuffer.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/StopWorldTest.java" />
-        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java" />
         <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java" />
+        <option value="$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/TraceCanReliveObj.java" />
       </list>
     </option>
   </component>
@@ -193,7 +207,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="62" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -206,8 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,15 +264,6 @@
             </path>
             <path>
               <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningOfThinkInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="jvminaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jvmbasicstructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningOfThinkInJava" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -302,7 +305,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -586,7 +591,8 @@
       <workItem from="1533389955282" duration="201000" />
       <workItem from="1533391256822" duration="168000" />
       <workItem from="1533477544637" duration="797000" />
-      <workItem from="1533628356474" duration="2214000" />
+      <workItem from="1533628356474" duration="4349000" />
+      <workItem from="1533974243607" duration="600000" />
     </task>
     <task id="LOCAL-00002" summary="readLock()与readLockInterruptibly()">
       <created>1502076728836</created>
@@ -791,11 +797,25 @@
       <option name="project" value="LOCAL" />
       <updated>1533183392913</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="softreference,">
+      <created>1533632032866</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1533632032866</updated>
+    </task>
+    <task id="LOCAL-00032" summary="softreference,">
+      <created>1533632706850</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1533632706850</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119094000" />
+    <option name="totallyTimeSpent" value="121829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -807,15 +827,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="62" y="23" width="1280" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.48869145" visible="true" weight="0.32647058" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4878837" visible="true" weight="0.17352942" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51130855" side_tool="true" visible="true" weight="0.32647058" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5121163" side_tool="true" visible="true" weight="0.17352942" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8828756" weight="0.5176471" />
@@ -823,7 +842,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.48626816" weight="0.32352942" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2924071" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29725364" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49676898" weight="0.35389134" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -892,7 +911,8 @@
     <MESSAGE value="-Xmx20m -Xms5m -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseSerialGC" />
     <MESSAGE value="直接内存配置" />
     <MESSAGE value="JVMargument" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVMargument" />
+    <MESSAGE value="softreference," />
+    <option name="LAST_COMMIT_MESSAGE" value="softreference," />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -924,13 +944,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/LongAddrThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HighConcurreny/src/main/java/concurrentDebugAndJdk8/LongAdderTest/SyncThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1225,7 +1238,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="15.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="15.0" />
           <SelectedNodes>
             <node>java.lang.ref.Reference</node>
           </SelectedNodes>
@@ -1253,7 +1266,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="266.5" y="16.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="267.0" y="17.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1274,7 +1287,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="408.0" y="16.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="408.0" y="17.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1298,25 +1311,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRefQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="210">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java">
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/WeakRef.java">
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/SoftRef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="4" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding>
+            <element signature="e#934#940#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvminaction/src/main/java/GcAlgorithm/TraceCanReliveObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
